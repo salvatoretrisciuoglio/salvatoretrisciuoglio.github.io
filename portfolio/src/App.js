@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -8,14 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h1>Salvatore Trisciuoglio</h1>
         <h2>Portfolio</h2>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Footer></Footer>
       </header>
     </div>
   );
