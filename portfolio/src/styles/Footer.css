@@ -1,20 +1,32 @@
 .footer {
-    background-color: #f8f9fa;
-    color: #6c757d;
+    background-color: #505355;
     padding: 20px 0;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
 }
 
 .footer p {
-    margin: 0;
+    margin: auto;
+    position: absolute;
     text-align: center;
-    font-size: 40%;
+    color: white
 }
 
 .social-icons-right {
-    display: flex;
-    justify-content: flex-end;
     align-items: center;
+}
+
+.made-by {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #505355
+}
+
+.react-logo {
+    width: 30px;
+    height: 30px;
 }

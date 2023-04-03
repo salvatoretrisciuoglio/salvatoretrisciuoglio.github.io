@@ -1,16 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      </header>
+      <body>
+        <Navbar></Navbar>
         <h1>Salvatore Trisciuoglio</h1>
         <h2>Portfolio</h2>
-        <Footer></Footer>
-      </header>
+      </body>
+      <Footer></Footer>
     </div>
   );
 }
